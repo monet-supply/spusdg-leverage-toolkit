@@ -1,0 +1,21 @@
+# --- secrets: never commit ---
+.env
+*.pass
+*.pw
+*.key
+keystore
+keystores/
+
+# --- foundry build artifacts ---
+out/
+cache/
+broadcast/
+
+# --- runtime logs & locks ---
+*.log
+roe.log
+cron.out
+cron.err
+launchd.out
+launchd.err
+.lock/
