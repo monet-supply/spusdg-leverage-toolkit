@@ -77,6 +77,9 @@ rebalances. Kill switch: `launchctl bootout gui/$(id -u) ~/Library/LaunchAgents/
 - Contracts are unaudited; the flash-loan paths are atomic (a mis-size reverts with no state
   change), but that is not a substitute for an audit.
 
-## License
+## License / disclaimer
 
-MIT
+Released into the **public domain** under [The Unlicense](LICENSE). Use it for anything,
+by anyone, no attribution required. The authors claim **no ownership** of this code and
+accept **no responsibility or liability** for it or for how anyone uses it — it is provided
+"as is", with no warranty of any kind (see the disclaimer at the top of this README).
